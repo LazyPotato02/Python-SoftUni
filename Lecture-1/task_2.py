@@ -1,30 +1,17 @@
-import sys
-
-
 loops = int(input())
-
 stack_querie = []
 
 for _ in range(loops):
-
-    n = input().split(' ')
-
-    index = int(n[0])
-    if index == 1:
-        num_to_add = n[1]
-        stack_querie.append(num_to_add)
-    elif index == 2:
-        if len(stack_querie) > 0:
+    n = input()
+    if n[0] == '1':
+        stack_querie.append(n[2:])
+    elif stack_querie:
+        if n == '2':
             stack_querie.pop()
-    elif index == 3:
-        print(max(stack_querie))
-    elif index == 4:
-        min_num = int(sys.maxsize)
-        for i in range(len(stack_querie)):
-            if int(stack_querie[i]) < min_num:
-                print(min_num)
-        # print(min(stack_querie))
-
+        elif n == '3':
+            print(max(stack_querie))
+        elif n == '4':
+            print(min(stack_querie))
 
 final_stack = []
 for n in range(len(stack_querie)):
