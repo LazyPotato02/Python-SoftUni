@@ -44,3 +44,4 @@ if len(order_queue) > 0:
     print(f"Orders left:", ' '.join(list(map(str, order_queue))))
 else:
     print('Orders complete')
+    
