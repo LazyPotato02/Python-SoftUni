@@ -1,13 +1,13 @@
-import sys
-from io import StringIO
+# import sys
+# from io import StringIO
 
-test_input1 = '''5 4
-A A B D
-A A B B
-I J B B
-C C C G
-C C K P
-'''
+# test_input1 = '''5 4
+# A A B D
+# A A B B
+# I J B B
+# C C C G
+# C C K P
+# '''
 # sys.stdin = StringIO(test_input1)
 
 n , m= input().split(" ")

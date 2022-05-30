@@ -1,12 +1,12 @@
-import sys
-from io import StringIO
+# import sys
+# from io import StringIO
 
-test_input1 = '''4
--7 14 9 -20
-3 4 9 21
--14 6 8 44
-30 9 7 -14
-'''
+# test_input1 = '''4
+# -7 14 9 -20
+# 3 4 9 21
+# -14 6 8 44
+# 30 9 7 -14
+# '''
 # sys.stdin = StringIO(test_input1)
 
 
