@@ -1,0 +1,55 @@
+Правиш лист за първия input и ги разделяш с ',' (чрез comprehension) , след това другия input се подразбира.: 
+
+numbers_list = [int(x) for x in input().split(", ")]
+Тази част прави в този случей един лист с толкова нули колкото са просяците, за да може сле това в loop-a да се пълнят в зависимост кой е под ред:
+
+beggars_list = [0] * number_of_beggars
+След това първия for цикъл прави така че да вземе всеки един от всички просяци, и current_beggar е равен на текущия просяк.:
+
+for num in range(len(beggars_list)):
+    current_beggar = num
+Тук този for цикъл минава през листа със всички числа които трябва да се разпределят на просяците в зависимост от реда им. current_num проверява чрез %,
+
+проверява дали е равно на 0, щом е равно на 0 значи се дели на сегашния просяк без остатък и това значи че е той. А другия if под него проверява дали този просяк има пари.
+
+for n in range(len(numbers_list)):
+    current_num = n % number_of_beggars
+    if current_num == current_beggar:
+След това следващия if проверя дали има пари. Защото ако няма това значи че листа с парите е свършил и на следващите просяци ще дава по 0.
+В примерите има някой просяци, които са повече от парите и в този случеи е нужен този if.
+
+if numbers_list[n] == 0:
+    beggars_list[current_num] = 0
+    break
+Aко ли не то под него има там където да се добавят първите пари. Ето това.
+
+beggars_list[current_num] = numbers_list[n]
+И след това else е щом просяка вече е получавал пари да се добавят към онези.
+
+else:
+    beggars_list[current_num] += numbers_list[n]
+И накрая принтира листа който трябва да е output-a на този код.
+
+print(beggars_list)
+-----------------------------
+
+
+numbers_list = [int(x) for x in input().split(", ")]
+number_of_beggars = int(input())
+
+beggars_list = [0] * number_of_beggars
+
+for num in range(len(beggars_list)):
+    current_beggar = num
+    for n in range(len(numbers_list)):
+        current_num = n % number_of_beggars
+        if current_num == current_beggar:
+            if beggars_list[num] == 0:
+                if numbers_list[n] == 0:
+                    beggars_list[current_num] = 0
+                    break
+                beggars_list[current_num] = numbers_list[n]
+            else:
+                beggars_list[current_num] += numbers_list[n]
+
+print(beggars_list)
