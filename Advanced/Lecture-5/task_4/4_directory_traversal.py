@@ -5,8 +5,9 @@ from os.path import join
 
 def printing(result):
     for k, v in result.items():
-        print(f".{k}")
-        [print(f"- - - {x}") for x in v]
+        with open('./report.txt', 'a') as f:
+            f.write(f".{k} \n")
+            [f.write(f"- - - {x} \n") for x in v]
 
 
 def directory_traversal(path, files_by_ext):
@@ -22,6 +23,5 @@ def directory_traversal(path, files_by_ext):
 
 result = {}
 directory_traversal('./', result)
-
-
+result = dict(sorted(result.items(), key=lambda x: x[0].lower()))
 printing(result)

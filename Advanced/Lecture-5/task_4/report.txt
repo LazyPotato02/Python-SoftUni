@@ -1,0 +1,20 @@
+.cfg 
+- - - secter.cfg 
+.html 
+- - - index.html 
+.js 
+- - - index.js 
+.lua 
+- - - main.lua 
+.py 
+- - - 4_directory_traversal.py 
+- - - python.py 
+- - - top_secret.py 
+.sh 
+- - - run.sh 
+.sql 
+- - - base.sql 
+.txt 
+- - - logs.txt 
+- - - test.txt 
+- - - report.txt 
