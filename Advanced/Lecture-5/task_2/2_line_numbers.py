@@ -2,7 +2,7 @@ from curses.ascii import isalpha
 
 
 file = open("./test_2.txt", 'r')
-
+print(file)
 count = 0
 for line in file.readlines():
     count += 1
