@@ -1,0 +1,7 @@
+{"username": "pesho@abv.bg", "password": "123123"}
+{"username": "pesho2@abv.bg", "password": "1231234"}
+{"username": "pesho3@abv.bg", "password": "123"}
+{"username": "pesho8@abv.bg", "password": "123"}
+{"username": "pesho12@abv.bg", "password": "123123"}
+{"username": "pesho33@abv.bg", "password": "333"}
+{"username": "test123@abv.bg", "password": "test123", "products": []}
