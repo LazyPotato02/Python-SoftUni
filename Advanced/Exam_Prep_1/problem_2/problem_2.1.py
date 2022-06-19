@@ -48,13 +48,11 @@ sys.stdin = StringIO(test_input_1)
 
 
 def find_rover(matrix):
-    # rover_cords = []
 
     for row in range(len(matrix)):
         for col in range(len(matrix)):
             current_col = matrix[row][col]
             if current_col == 'E':
-                # rover_cords.append((row,col))
                 return row, col
 
 
