@@ -41,7 +41,6 @@ ROW_MATRIX = 6
 COL_MATRIX = 6
 
 matrix = [input().split() for _ in range(ROW_MATRIX)]
-throws = 0
 points = 0
 
 prices = {
