@@ -1,6 +1,3 @@
-import unittest
-
-
 def shopping_cart(*args):
     ll = list(args)
     meal_type = {
@@ -46,25 +43,6 @@ def shopping_cart(*args):
         return 'No products in the cart!'
     return result.strip()
 
-# print(shopping_cart(
-#     ('Pizza', 'ham'),
-#     ('Soup', 'carrots'),
-#     ('Soup', 'carrots1231'),
-#     ('Soup', 'carrots16521'),
-#     ('Soup', 'carrots124'),
-#     ('Pizza', 'cheese166'),
-#     ('Pizza', 'flour'),
-#     ('Dessert', 'milk'),
-#     ('Pizza', 'mushrooms'),
-#     ('Dessert', 'milk'),
-#     ('Dessert', 'milk12'),
-#     ('Dessert', 'milk323'),
-#     ('Pizza', 'tomatoes'),
-#     ('Pizza', 'tomatoes5125'),
-#     ('Pizza', 'tomatoes125'),
-#     ('Pizza', 'tomatoes1254'),
-#     'Stop',
-# ))
 
 print(shopping_cart(
     ('Pizza', 'ham'),
@@ -90,30 +68,3 @@ print(shopping_cart(
 #     ('Pizza', 'ham'),
 #     ('Pizza', 'mushrooms'),
 # ))
-
-
-# class Tests(unittest.TestCase):
-#     def test(self):
-#         result = shopping_cart(
-#             ('Pizza', 'ham'),
-#             ('Soup', 'carrots'),
-#             ('Pizza', 'cheese'),
-#             ('Pizza', 'flour'),
-#             ('Dessert', 'milk'),
-#             ('Pizza', 'mushrooms'),
-#             ('Pizza', 'tomatoes'),
-#             'Stop',
-#         )
-#         self.assertEqual(result.strip(), "Pizza:\n"
-#                                          " - cheese\n"
-#                                          " - flour\n"
-#                                          " - ham\n"
-#                                          " - mushrooms\n"
-#                                          "Dessert:\n"
-#                                          " - milk\n"
-#                                          "Soup:\n"
-#                                          " - carrots")
-
-
-# if __name__ == "__main__":
-#     unittest.main()
