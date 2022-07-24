@@ -41,24 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/lazy/Documents/Projects/Python/python-advanced/OOP",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lazy/Documents/Projects/Python/python-advanced/OOP&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Polymorphism_and_Abstraction/wild_farm/project/animals" />
       <recent name="$PROJECT_DIR$/Polymorphism_and_Abstraction/wild_farm/project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.emails">
-    <configuration name="emails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.possible_permutations">
+    <configuration name="fibonaci_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,12 +66,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOLID/exercise-resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iterators_ang_Generators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOLID/exercise-resources/emails.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iterators_ang_Generators/fibonaci_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prisoner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="possible_permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +88,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOLID/exercise-resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iterators_ang_Generators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOLID/exercise-resources/prisoner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iterators_ang_Generators/possible_permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prime_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,12 +110,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOLID/exercise-resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iterators_ang_Generators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOLID/exercise-resources/shapes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iterators_ang_Generators/prime_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="workers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOLID/exercise-resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iterators_ang_Generators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOLID/exercise-resources/workers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iterators_ang_Generators/reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="workers_updated" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="take_halves" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +154,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SOLID/exercise-resources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Iterators_ang_Generators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SOLID/exercise-resources/workers_updated.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Iterators_ang_Generators/take_halves.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.emails" />
-        <item itemvalue="Python.shapes" />
-        <item itemvalue="Python.prisoner" />
-        <item itemvalue="Python.workers_updated" />
-        <item itemvalue="Python.workers" />
+        <item itemvalue="Python.possible_permutations" />
+        <item itemvalue="Python.prime_numbers" />
+        <item itemvalue="Python.reader" />
+        <item itemvalue="Python.fibonaci_generator" />
+        <item itemvalue="Python.take_halves" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +190,9 @@
       <workItem from="1658239728019" duration="10442000" />
       <workItem from="1658255550737" duration="46000" />
       <workItem from="1658577617671" duration="5184000" />
+      <workItem from="1658597217238" duration="307000" />
+      <workItem from="1658597842363" duration="833000" />
+      <workItem from="1658649487109" duration="6731000" />
     </task>
     <servers />
   </component>
@@ -220,18 +223,47 @@
           <line>46</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Iterators_ang_Generators/take_skip.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Iterators_ang_Generators/dictionary_iterator.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Iterators_ang_Generators/sequence_repeat.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Iterators_ang_Generators/take_halves.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1658242584871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Polymorphism_and_Abstraction" />
     <SUITE FILE_PATH="coverage/OOP$workers.coverage" NAME="workers Coverage Results" MODIFIED="1658578515709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SOLID/exercise-resources" />
+    <SUITE FILE_PATH="coverage/OOP$groups.coverage" NAME="groups Coverage Results" MODIFIED="1658243182250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Polymorphism_and_Abstraction" />
+    <SUITE FILE_PATH="coverage/OOP$possible_permutations.coverage" NAME="possible_permutations Coverage Results" MODIFIED="1658656183592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
+    <SUITE FILE_PATH="coverage/OOP$fibonaci_generator.coverage" NAME="fibonaci_generator Coverage Results" MODIFIED="1658653318591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
+    <SUITE FILE_PATH="coverage/OOP$workers_updated.coverage" NAME="workers_updated Coverage Results" MODIFIED="1658579523152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SOLID/exercise-resources" />
+    <SUITE FILE_PATH="coverage/OOP$sequence_repeat.coverage" NAME="sequence_repeat Coverage Results" MODIFIED="1658652671111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
+    <SUITE FILE_PATH="coverage/OOP$reader.coverage" NAME="reader Coverage Results" MODIFIED="1658654817380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
+    <SUITE FILE_PATH="coverage/OOP$take_halves.coverage" NAME="take_halves Coverage Results" MODIFIED="1658652767284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
+    <SUITE FILE_PATH="coverage/OOP$countdown_iterator.coverage" NAME="countdown_iterator Coverage Results" MODIFIED="1658651525985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
     <SUITE FILE_PATH="coverage/OOP$shapes.coverage" NAME="shapes Coverage Results" MODIFIED="1658581357204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SOLID/exercise-resources" />
     <SUITE FILE_PATH="coverage/OOP$emails.coverage" NAME="emails Coverage Results" MODIFIED="1658582046570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SOLID/exercise-resources" />
     <SUITE FILE_PATH="coverage/OOP$.coverage" NAME=" Coverage Results" MODIFIED="1658240652345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Static_and_Class_Methods/gym" />
-    <SUITE FILE_PATH="coverage/OOP$groups.coverage" NAME="groups Coverage Results" MODIFIED="1658243182250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Polymorphism_and_Abstraction" />
+    <SUITE FILE_PATH="coverage/OOP$prime_numbers.coverage" NAME="prime_numbers Coverage Results" MODIFIED="1658655728619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
     <SUITE FILE_PATH="coverage/OOP$Account.coverage" NAME="Account Coverage Results" MODIFIED="1658248158698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Polymorphism_and_Abstraction" />
-    <SUITE FILE_PATH="coverage/OOP$workers_updated.coverage" NAME="workers_updated Coverage Results" MODIFIED="1658579523152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SOLID/exercise-resources" />
+    <SUITE FILE_PATH="coverage/OOP$take_skip.coverage" NAME="take_skip Coverage Results" MODIFIED="1658649913272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
     <SUITE FILE_PATH="coverage/OOP$prisoner.coverage" NAME="prisoner Coverage Results" MODIFIED="1658580268127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SOLID/exercise-resources" />
+    <SUITE FILE_PATH="coverage/OOP$dictionary_iterator.coverage" NAME="dictionary_iterator Coverage Results" MODIFIED="1658650977006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Iterators_ang_Generators" />
   </component>
 </project>
