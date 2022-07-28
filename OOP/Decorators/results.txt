@@ -1,0 +1,2 @@
+Function add was called. 4
+Function mult was called. 24
