@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61a1b415-0542-480d-ae21-93f52aaa4974" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="61a1b415-0542-480d-ae21-93f52aaa4974" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/lazy/Documents/Projects/Python/python-advanced/OOP",
+    "last_opened_file_path": "/home/lazy/Documents/Projects/Python/F-R-work-rate",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
@@ -195,6 +193,7 @@
       <workItem from="1658649487109" duration="6731000" />
       <workItem from="1658678744850" duration="26000" />
       <workItem from="1659024523863" duration="8032000" />
+      <workItem from="1659122561285" duration="17000" />
     </task>
     <servers />
   </component>

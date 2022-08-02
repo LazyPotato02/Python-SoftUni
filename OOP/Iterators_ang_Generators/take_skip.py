@@ -1,3 +1,6 @@
+from regex import F
+
+
 class take_skip():
 
     def __init__(self, step, count) -> None:
