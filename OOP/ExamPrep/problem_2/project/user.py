@@ -1,6 +1,6 @@
 from os import linesep
 
-from problem_2.project.utils.validators import validate_non_empty_string, validate_greater_than_value
+from project.utils.validators import validate_non_empty_string, validate_greater_than_value
 
 
 class User:

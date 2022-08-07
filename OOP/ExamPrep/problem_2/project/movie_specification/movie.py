@@ -1,11 +1,12 @@
 from abc import ABC, abstractmethod
 
-from problem_2.project.user import User
-from problem_2.project.utils.validators import validate_non_empty_string, validate_greater_than_value
+from project.user import User
+from project.utils.validators import validate_non_empty_string, validate_greater_than_value
 
 
 class Movie(ABC):
     MIN_YEAR = 1888
+    MIN_AGE_RESTRICTION = None
 
     def __init__(self, title: str, year: int, owner: object, age_restriction: int):
         self.title = title
@@ -41,18 +42,44 @@ class Movie(ABC):
         self.__validate_owner(value)
         self.__owner = value
 
+    @property
+    def age_restriction_error_message(self):
+        return f"{self.type} movies must be restricted for audience under {self.MIN_AGE_RESTRICTION} years!"
+
+    @property
+    def age_restriction(self):
+        return self.__age_restriction
+
+    @age_restriction.setter
+    def age_restriction(self, value):
+        self.__validate_age_restriction(value)
+        self.__age_restriction = value
+
     @staticmethod
     def __validate_title(title):
         validate_non_empty_string(title, "The title cannot be empty string!")
 
     @staticmethod
     def __validate_owner(value):
-        if value is not User:
+        if not isinstance(value, User):
             raise ValueError("The owner must be an object of type User!")
 
-    def __validate_year(self, year):
-        validate_greater_than_value(year, self.MIN_YEAR, f"Movies weren't made before {self.MIN_YEAR}!")
+    @classmethod
+    def __validate_year(cls, year):
+        validate_greater_than_value(year, cls.MIN_YEAR, f"Movies weren't made before {cls.MIN_YEAR}!")
 
-    @abstractmethod
+    def __validate_age_restriction(self, value):
+        validate_greater_than_value(value, self.MIN_AGE_RESTRICTION, self.age_restriction_error_message)
+
     def details(self):
+        return f"{self.type} -" \
+               f" Title:{self.title}," \
+               f" Year:{self.year}," \
+               f" Age restriction:{self.age_restriction}," \
+               f" Likes:{self.likes}," \
+               f" Owned by:{self.owner.username}"
+
+    @property
+    @abstractmethod
+    def type(self):
         pass
