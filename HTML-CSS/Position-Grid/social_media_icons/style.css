@@ -1,0 +1,17 @@
+@import "https://use.fontawesome.com/releases/v5.0.1/css/all.css";
+
+ul li{
+    display: inline-block;
+}
+li{
+    list-style-type: none;
+}
+a{
+    border-radius: 50%;
+    border: 8px solid rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230);
+    
+}
+i{
+    color: rgb(66, 66, 66);
+}
