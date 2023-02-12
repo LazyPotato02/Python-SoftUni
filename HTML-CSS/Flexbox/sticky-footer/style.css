@@ -1,0 +1,29 @@
+html{
+    /* margin: 12px; */
+    font-family: Helvetica, sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+header,
+main{
+    margin: 12px;
+}
+header h1{
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+}
+
+footer{
+    position:sticky;
+    padding: 8px 0 8px 6px;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+}
