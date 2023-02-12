@@ -1,0 +1,46 @@
+body {
+    margin: 40px;
+  }
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    border-bottom: 2px rgb(0,0,0) solid;
+    text-transform: uppercase;
+}
+nav{
+    position: relative;
+    left: 70%;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+
+    
+}
+
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+header nav ul li:not(:last-child){
+    margin-right: 8px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+main ul li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+main ul li:not(:first-child){
+    margin-top: 20px;
+    
+}

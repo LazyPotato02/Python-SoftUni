@@ -1,0 +1,19 @@
+html{
+    background-color: lightgray;
+}
+
+body, ul, li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25.33%;
+}
+ul {
+    justify-content: space-between;
+}
+body ul li img{
+    box-shadow: 2px 3px 14px 7px rgba(0,0,0,0.75);
+    border: 8px solid black;
+    padding: 24px;
+    margin-bottom: 32px;
+    object-fit: contain;
+}
