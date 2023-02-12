@@ -1,0 +1,51 @@
+html{
+    font-family: Helvetica;
+    margin: 64px;
+}
+
+section{
+    display: flex;
+    padding: 32px 32px;
+    background-color: rgb(236, 232, 232);;
+    width: 45%;
+    border-radius: 8px;
+}
+
+section article .small__text{
+    font-size: 12px;
+    margin-bottom: -12px;
+}
+section article h1{
+    font-weight: 200;
+    font-size: 32px;
+}
+section article .big__text{
+    width: 84%;
+    color: rgb(103, 103, 103);
+    margin-top: -16px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+section article button{
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 16px;
+    
+}
+section article .primary{
+    background-color: rgb(117, 67, 254);
+    margin-right: 8px;
+    color: white
+
+}
+section article .secondary{
+    background-color: white;
+    border: 1px solid black
+
+}
+section article img{
+    margin-bottom: -35px;
+    height: auto;
+    width: 290px;
+}
