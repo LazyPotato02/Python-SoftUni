@@ -1,0 +1,53 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    background-color:#f6e0b5;
+    display: flex;
+    width: 940px;
+}
+
+
+.blog-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+}
+.blog-items article{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: -12px 5px 52px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -12px 5px 52px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 5px 52px -3px rgba(0,0,0,0.75);
+}
+.blog-items img{
+    width: 400px;
+    background-color: #66545e;
+    height: 150px;
+}
+.blog-items p{
+    background-color:#66545e ;
+    color: white;
+    height: 100%;
+    padding: 4px 8px;
+    
+    font-weight: bold;
+}
+
+aside{
+    margin-top: 24px;
+    font-size: 20px;
+    color: #66545e ;
+    font-weight: bold;
+    padding-right: 30px;
+}
+aside h4{
+    margin-bottom: 16px;
+}
+aside p{
+    margin-bottom: 8px;
+}
